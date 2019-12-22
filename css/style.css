@@ -1,0 +1,623 @@
+body {
+	font-family: 'OpenSans Regular', Arial, sans-serif;
+	margin: 0;
+}
+.intro,
+.services,
+.feature-products,
+.team,
+.subscribe,
+.feedback-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	max-width: 1249px;
+	margin: 0 auto;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+main {
+	overflow: hidden;
+}
+h2 {
+	color: #000;
+	margin: 0;
+	font-size: 42px;
+	line-height: 55px;
+	text-transform: uppercase;
+}
+h3 {
+	margin: 0;
+}
+p {
+	margin: 0;
+	font-size: 16px;
+	line-height: 28px;
+}
+.header-wrapper,
+.intro-out-wrapper {
+	background-color: #e0e0e0;
+}
+header {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1249px;
+	margin: 0 auto;
+	min-height: 88px;
+	background-color: #000000;
+}
+.site-menu {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	position: relative;
+	right: 20px;
+}
+.site-menu > a {
+	padding: 41px 30px 30px;
+	color: #e0e0e0;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.site-menu > a:hover {
+	background-color: #FF3F40;
+}
+.intro {
+	background-color: #e0e0e0;
+	padding-top: 103px;
+	padding-bottom: 94px;
+}
+.intro-wrapper {
+	position: relative;
+    bottom: 11px;
+	width: 617px;
+	vertical-align: top;
+	margin-bottom: 20px;
+	margin-right: 75px;
+}
+.intro-heading {
+	margin: 0;
+	font-size: 60px;
+	line-height: 1.2em;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+	letter-spacing: 1.5px;
+}
+.intro-heading > .style-text {
+	margin: 0;
+	word-break: break-word;
+	font-size: 54px;
+	text-transform: uppercase;	
+}
+.intro-text {
+	max-width: 520px;
+	margin-bottom: 51px;
+	opacity: 0.7; 
+}
+.contact-us {
+	box-sizing: border-box;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	display: inline-block;
+	background-color: #ff3f40;
+	width: 227px;
+	padding: 16px 0;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+}
+.intro-image {
+	width: 551px;
+	height: 356px;
+	box-shadow: 0 -10px 40px 0 rgb(124, 124, 124);
+}
+
+.socials {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 60px;
+	padding-top: 30px;
+	min-height: 60px;
+	background-color: #313030;
+	color: #B8B8B8;
+}
+.socials a {
+	padding-right: 18px;
+}
+
+.services {
+	padding-top: 106px;
+	padding-bottom: 53px;
+}
+.services-wrapper {
+	flex: 1 1 500px;
+	max-width: 500px;
+	margin-bottom: 50px;
+	margin-right: 50px;
+}
+.services-heading {
+	position: relative;
+    font-weight: 700;
+    bottom: 5px;
+	margin-bottom: 27px;
+}
+.services-text {
+	margin-bottom: 51px;
+}
+.learn-more {
+	color: #ff3f40;
+	display: inline-block;
+	background-color: #ffffff;
+	width: 227px;
+	padding: 16px 0;
+	border: 2px solid #ff3f40;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+}
+.quatro {
+	flex: 1 1;
+	max-width: 609px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item {
+	flex: 1 1 288px;
+	width: 288px;
+	margin-bottom: 50px;
+}
+.item:nth-child(odd) {
+	margin-right: 32px;
+}
+.long-grey {
+	height: 5px;
+	border: none;
+	background-color: #ECECEC;
+	color: #ECECEC;
+}
+.feature-products {
+	padding-top: 94px;
+	padding-bottom: 52px
+}
+
+.feature-header {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 67px;
+}
+.feature-h {
+	padding-left: 14px;
+	margin-bottom: 16px;
+}
+.feature-text {
+	max-width: 540px;
+	margin: 0 auto 30px;
+}
+
+.short-red {
+	height: 3px;
+	width: 122px;
+	border: none;
+	background-color: #FF2D2D;
+}
+.menu {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 60px;
+}
+.menu a {
+	padding: 0 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+}
+.menu a:hover {
+	color: #ff2d2d;
+}
+.pictures {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.pictures img {
+	flex: 1 1 24%;
+	min-width: 250px;
+	max-width: 299px;
+	height: 291px;
+	margin-bottom: 18px;
+}
+.team {
+	padding-top: 60px;
+	padding-bottom: 110px;
+}
+.team-header {
+	width: 100%;
+	text-align: left;
+	margin-bottom: 67px;
+}
+.team-heading {
+	margin-bottom: 23px;
+}
+.team-text {
+	max-width: 460px;
+	margin-bottom: 30px;
+}
+.team-line {
+	margin-left: 0;
+}
+.team-members-wrapper {
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	position: relative;
+}
+.main-member-photo {
+	width: 321px;
+	height: 458px;
+	margin-right: 65px;
+	background-color: #eb6d4a8f;
+}
+.main-member-info {
+	position: absolute;
+	max-width: 642px;
+	top: 5px;
+	left: 393px;
+}
+.main-member-info h3 {
+	position: relative;
+    bottom: 5px;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+}
+.main-member-info p {
+	margin-bottom: 34px;
+}
+.links a {
+	margin-right: 30px;
+	font-size: 18px;
+	text-decoration: none;
+	font-style: italic;
+	color: #000;
+}
+.links a:hover {
+	text-decoration: underline;
+}
+.photos {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.member {
+	position: relative;
+	margin-top: 18px;
+	margin-right: 18px;
+}
+
+.member h3 {
+	visibility: hidden;
+	position: absolute;
+	color: #fff;
+	bottom: 0;
+	width: 100%;
+	height: 37px;
+	text-align: center;
+	background-color: grey;
+}
+
+.member:hover > h3 {
+	visibility: visible;
+}
+
+.member-photo {
+	display: block;
+	width: 197px;
+	height: 214px;
+	background-color: #d4dce680;
+}
+.subscribe {
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	background-color: #2c2c2c;
+	padding-top: 124px;
+	padding-bottom: 140px;
+}
+
+.subscribe-wrapper {
+	max-width: 1249px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.subscribe-heading {
+	color: #fff;
+	opacity: 0.8;
+	text-transform: none;
+	margin-bottom: 30px;
+}
+
+.subscribe-wrapper > p {
+	color: #fff;
+	opacity: 0.8;
+	margin-bottom: 50px;
+}
+
+.subscribe-forms {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.subscribe-forms > .email {
+	color: grey;
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	box-sizing: border-box;
+	flex: 0 1 520px;
+	max-width: 520px;
+	min-height: 80px;
+	padding: 0;
+	padding-left: 35px;
+	border: none;
+	border-radius: 5px;
+	margin-right: 22px;
+}
+.subscribe-forms > .subscribe-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	width: 214px;
+	min-height: 80px;
+	background-color: #ff2d2d;
+	border: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+.feedback-wrapper {
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	flex-wrap: nowrap;
+	padding-top: 92px;
+	padding-bottom: 110px;
+}
+
+.feedback {
+	max-width: 731px;
+	margin-right: 107px;
+}
+
+.feedback > h2 {
+	margin-bottom: 34px;
+}
+
+.feedback > p {
+	max-width: 720px;
+	margin-bottom: 50px;
+}
+
+.feedback-line {
+	margin-left: 0;
+	margin-bottom: 75px;
+}
+
+.feedback-form {
+	display: flex;
+	flex-wrap: wrap;
+}
+.feedback-form > input {
+	color: grey;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	padding-left: 54px;
+	border: none;
+	border-radius: 5px;
+	background-color: #f3f3f3;	
+	margin-bottom: 45px;
+}
+.feedback-form > .name,
+.feedback-form > .your-mail {
+	width: 339px;
+	max-width: 339px;
+	height: 69px;
+}
+.feedback-form > .name {
+	margin-right: 53px;
+}
+.feedback-form > .message-input {
+	font-size: 16px;
+	width: 731px;
+	max-width: 731px;
+	height: 249px;
+	box-sizing: border-box;
+	padding-top: 35px;
+	padding-left: 54px;
+	padding-bottom: 150px;
+	margin-bottom: 45px;
+	border: none;
+	border-radius: 5px;
+	background-color: #f3f3f3;	
+}
+.feedback-form > .send-message {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	width: 730px;
+	max-width: 730px;
+	height: 72px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	background-color: #ff2d2d;
+	border: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+} 
+.contact {
+	position: relative;
+	color: #e0e0e0;
+	background-color: #2c2c2c;
+	padding: 140px 78px;
+}
+
+.contact > h3 {
+	text-transform: uppercase;
+	color: #e0e0e0;
+	font-size: 18px;
+}
+
+.contact > h3 {
+	margin-bottom: 13px;
+}
+
+.address {
+	line-height: 28px;
+}
+
+.address > p {
+	margin-bottom: 17px;
+}
+
+@media screen and (max-width: 1286px) {
+	.intro {
+		flex-wrap: nowrap;
+	}
+	.intro-wrapper {
+		width: 50%;
+		box-sizing: border-box;
+		margin-right: 0;
+		padding-right: 15px;
+	}
+	.intro-heading {
+		font-size: 5vw;
+	}
+	.intro-image-link {
+		width: 50%;
+		height: auto;
+	}
+	.intro-image {
+		width: 100%;
+		height: auto;
+	}
+	.prictures {
+		justify-content: flex-start;
+	}
+	.item {
+		width: 299px;
+		max-width: 100%;
+		margin-right: 1vw;
+	}
+	.feedback-wrapper {
+		flex-wrap: wrap;
+		padding-left: initial;
+    	padding-right: initial;
+	}
+	.feedback {
+		margin: 0 auto;
+		margin-bottom: 30px;
+		padding: 0 1vw;
+	}
+	.contact {
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.main-member-info {
+		position: initial;
+	}
+	.menu > a {
+		width: 100%;
+		text-align: center;
+	}
+	.services {
+		justify-content: center;
+	}
+	.services-wrapper,
+	.quatro {
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.services-wrapper {
+		width: 100%;
+		max-width: 100%;
+	}
+	.quatro {
+		width: 100%;
+		max-width: 100%;
+	}
+	.contact {
+		padding: 1vw;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.feedback-form > .name,
+	.feedback-form > .your-mail,
+	.feedback-form > .message-input,
+	.feedback-form > .send-message {
+		width: 100%;
+		max-width: 100%;
+	}
+	.feedback-form > .name {
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	header {
+		padding-left: 20px;
+	}
+	.intro {
+		flex-wrap: wrap;
+	}
+	.intro-wrapper {
+		width: 100%;
+	}
+	.intro-image-link {
+		width: 100%;
+	}
+	.intro-image {
+		width: 100%;
+		height: auto;
+	}
+	.intro-heading {
+		font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.subscribe-forms {
+		flex-wrap: wrap;
+	}
+}
