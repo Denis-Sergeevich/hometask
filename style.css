@@ -1,0 +1,56 @@
+body {
+	margin: 0 auto;
+	box-sizing: content-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nfs-lights {
+	margin-top: 100px;
+	display: flex;
+	position: relative;
+}
+
+.light-board {
+	height: 280px;
+	width: 70px;
+	background-color: black;
+	border-radius: 10px;
+	margin: 5px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.light {
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+	background-color: grey;
+	margin: 5px;
+}
+
+.back-strip {
+	height: 10px;
+	width: 250px;
+	background-color: black;
+	z-index: -1;
+	position: absolute;
+	left: 75px;
+	top: 140px;
+}
+
+.time {
+	padding: 0;
+	font-size: 54px;
+	display: flex;
+    justify-content: center;
+}
+
+.best {
+	margin: 20px;
+}
+
+span {
+	margin: 5px;
+}
